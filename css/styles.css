@@ -365,14 +365,13 @@ img {
   justify-content: center;
 }
 
-.link-icons:hover {
-  background-color: #404bbf;
-}
-
+.link-icons:hover,
+.link-icons:active,
 .link-icons:active {
   background-color: #404bbf;
 }
 
 .icon-social {
   fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
